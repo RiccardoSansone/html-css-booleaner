@@ -16,3 +16,33 @@
     margin-top: 30px;
     margin-left: 10px;
 }
+
+#title{
+    height: 80px;
+    width: 100%;
+}
+
+#blue{
+    color:dodgerblue
+}
+
+#data{
+    color: gray;
+    
+}
+
+#by{
+    color: gray;
+}
+
+#firstp{
+    margin-top: 10px;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+#list{
+    margin-top: 20px;
+}
