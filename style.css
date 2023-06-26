@@ -1,25 +1,33 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+ */
 #pattern{
     background-image: url(img/pattern.png);
     background-repeat:repeat-x;
     background-color:#6495ED; 	
-    background-size: 300px 150px;
+    background-size: 450px 225px;
    
 }
 #logo{
-    height: 40px;
-    margin-top: 30px;
-    margin-left: 10px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 
 #title{
-    height: 80px;
-    width: 100%;
+   font-size: 50px;
+   margin-bottom: 0;
+}
+
+
+#by{
+    color: gray;
+    margin:0;
+    font-size: 20px;
+    padding-top: 0;
 }
 
 #blue{
@@ -28,11 +36,13 @@
 
 #data{
     color: gray;
-    
+    padding-bottom: 15px;
+    font-size: 10px;
+    margin: 0px;
 }
 
-#by{
-    color: gray;
+#descrphoto{
+    font-size: 10px;
 }
 
 .setp{
@@ -45,15 +55,21 @@
 
 #list{
     margin-top: 20px;
+    padding-left: 10px;
 }
 
+table, tr, td, th{
+    border: none;
+    }
 
 #table{
     margin-top: 20px;
+    border:none;
+    border-spacing: 0;
 }
 
 #head{
-    background-color: cyan;
+    background-color:#1E90FF;
     color: white;
     margin: 0;
 }
@@ -63,5 +79,36 @@ td, th{
 }
 
 .azzurro{
-    background-color: #6495ED;
+    background-color: #87CEFA;
+}
+
+#pgray{
+    margin-top: 40px;
+    color: gray;
+}
+
+#photo1{
+    background-image: url(img/monitor.jpg);
+    background-size: 312px 208px;
+    width: 312px;
+    height: 208px;
+}
+
+#photo2{
+    background-image: url(img/graph.jpg);
+    background-size: 311px 207px;
+    width: 311px;
+    height: 207px;
+}
+
+.pfoto{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 10px;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
 }
