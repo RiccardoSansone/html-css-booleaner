@@ -7,13 +7,13 @@
 #pattern{
     background-image: url(img/pattern.png);
     background-repeat:repeat-x;
-    background-color:#6495ED; 	
+    background-color:#6495ED; 	/* guarda bene le immagini */
     background-size: 450px 225px;
    
 }
 #logo{
     height: 60px;
-    margin-top: 50px;
+    margin-top: 50px;   /* ricordati bene che la dimensione del contenitore dipende da qua */
     margin-left: 20px;
 }
 
